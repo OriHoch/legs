@@ -25,6 +25,11 @@ Adding the dependecy to `build.sbt`
 
 Currently I publish the project against Scala `2.11`, if `2.10.*` is required, please let me know
 
+###### Linux Installation Notes
+
+ * [See this guide for Java 8 installation on debian/ubuntu](http://www.webupd8.org/2014/03/how-to-install-oracle-java-8-in-debian.html). 
+ * You might need to run "sudo update-alternatives --config java" to make sure the correct java version is used.
+
 ### Changelog
 
  * `0.8.1` add randomized user agent to PhantomJS
